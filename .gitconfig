@@ -1,0 +1,11 @@
+[user]
+	name = Shota Hoshino
+[core]
+	editor = /usr/local/bin/vim
+	excludesfile = ~/.gitignore
+[push]
+	default = upstream
+[alias]
+	sync = fetch -pav
+[credential]
+	helper = osxkeychain
