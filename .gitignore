@@ -1,1 +1,11 @@
-/.idea/
+# OSX
+.DS_Store
+
+# IntelliJ
+.idea/
+*.iml
+*.ipr
+*.iws
+
+# PHP
+composer.phar

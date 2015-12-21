@@ -3,6 +3,7 @@
 [core]
 	editor = /usr/local/bin/vim
 	excludesfile = ~/.gitignore
+	whitespace = fix, -indent-with-no-tab, trailing-space, cr-at-eol
 [push]
 	default = upstream
 [alias]
