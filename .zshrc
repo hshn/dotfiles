@@ -1,5 +1,5 @@
 # Path to your oh-my-zsh installation.
-export ZSH=/Users/s_hoshino/.oh-my-zsh
+export ZSH=$HOME/.oh-my-zsh
 
 # Set name of the theme to load.
 # Look in ~/.oh-my-zsh/themes/
@@ -49,13 +49,13 @@ DISABLE_AUTO_TITLE="true"
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(git brew gulp httpie symfony2 docker docker-compose sbt)
+plugins=(git symfony2 pod sbt brew bower docker docker-compose gulp httpie)
 
 # User configuration
-export PATH="/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin"
+export PATH="/usr/local/bin:/usr/bin:/bin:/usr/local/sbin:/usr/sbin:/sbin"
 
 # node
-export PATH=$PATH:$HOME/.nodebrew/current/bin
+[[ -s $NVM_DIR/nvm.sh ]] && . $NVM_DIR/nvm.sh
 
 # php
 [[ -e ~/.phpbrew/bashrc ]] && source ~/.phpbrew/bashrc
@@ -66,6 +66,8 @@ export PATH=$PATH:$GOPATH/bin
 
 # ruby
 eval "$(rbenv init -)"
+# node
+. $(brew --prefix nvm)/nvm.sh
 
 # export MANPATH="/usr/local/man:$MANPATH"
 
