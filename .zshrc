@@ -57,6 +57,9 @@ export PATH="/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin"
 # node
 export PATH=$PATH:$HOME/.nodebrew/current/bin
 
+# php
+[[ -e ~/.phpbrew/bashrc ]] && source ~/.phpbrew/bashrc
+
 # golang
 export GOPATH=$HOME/.golang
 export PATH=$PATH:$GOPATH/bin
