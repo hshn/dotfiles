@@ -42,9 +42,11 @@ brew 'nginx', args: ['with-spdy']
 brew 'mysql'
 
 # docker
+tap 'codekitchen/dinghy'
 brew 'docker'
 brew 'docker-machine'
 brew 'docker-compose'
+brew 'dinghy'
 
 # caks
 brew 'caskroom/cask/brew-cask'
