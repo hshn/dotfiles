@@ -4,13 +4,14 @@ Plug 'junegunn/fzf', { 'dir': '~/.fzf', 'do': './install --all' }
 Plug 'scrooloose/nerdtree'
 Plug 'vim-airline/vim-airline'
 Plug 'vim-airline/vim-airline-themes'
+Plug 'airblade/vim-gitgutter'
 Plug 'tmux-plugins/vim-tmux'
 
 call plug#end()
 
 let g:airline#extensions#tabline#enabled = 1
 let g:airline_powerline_fonts = 1
-let g:airline_theme = 'base16_solarized'
+let g:airline_theme = 'bubblegum'
 
 syntax enable
 
@@ -22,3 +23,5 @@ set shiftwidth=2
 set encoding=utf-8
 set fenc=utf-8
 set backspace=indent,eol,start
+set laststatus=2
+
