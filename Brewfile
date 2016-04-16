@@ -4,6 +4,7 @@ tap 'homebrew/dupes'
 tap 'homebrew/php'
 
 # env
+brew 'coreutils'
 brew 'homebrew/dupes/openssh'
 brew 'vim', args: ['with-lua', 'with-luajit', 'with-python3']
 
