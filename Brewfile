@@ -25,7 +25,6 @@ brew 'tig'
 # java
 cask 'java'
 brew 'gradle'
-brew 'pivotal/tap/springboot'
 
 # scala
 brew 'scala', args: ['with-docs', 'with-src']
@@ -54,7 +53,6 @@ cask_args appdir: '/Applications'
 
 # IDEs
 cask 'intellij-idea'
-cask 'intellij-idea-ce'
 cask 'phpstorm'
 
 # editors
@@ -80,7 +78,6 @@ cask 'slack'
 cask 'cocoapods'
 
 # etc
-cask 'kobito'
 cask 'minecraft'
 cask 'virtualbox'
 cask 'vlc'
