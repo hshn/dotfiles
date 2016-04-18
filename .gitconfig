@@ -5,7 +5,7 @@
 	excludesfile = ~/.gitignore
 	whitespace = fix, -indent-with-no-tab, trailing-space, cr-at-eol
 [push]
-	default = upstream
+	default = simple
 [alias]
 	sync = fetch -pav
 [credential]
