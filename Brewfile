@@ -16,6 +16,7 @@ brew 'tmux'
 brew 'tree'
 brew 'wget'
 brew 'zsh'
+brew 'item2'
 
 # git
 brew 'git', args: ['with-brewed-curl', 'with-brewed-openssl']
