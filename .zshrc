@@ -59,6 +59,7 @@ export NVM_DIR=$(greadlink -f "/usr/local/opt/nvm")
 [[ -s $NVM_DIR/nvm.sh ]] && . $NVM_DIR/nvm.sh
 
 # php
+export PATH=$PATH:$HOME/.composer/vendor/bin
 [[ -e ~/.phpbrew/bashrc ]] && source ~/.phpbrew/bashrc
 
 # golang
