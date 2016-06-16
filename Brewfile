@@ -47,6 +47,10 @@ brew 'docker-machine'
 brew 'docker-machine-nfs'
 brew 'docker-compose'
 
+# cloud
+brew 'doctl' # digital ocean
+brew 'awscli'
+
 # caks
 brew 'caskroom/cask/brew-cask'
 cask_args appdir: '/Applications'
