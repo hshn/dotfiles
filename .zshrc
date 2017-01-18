@@ -55,8 +55,8 @@ plugins=(git symfony2 pod sbt brew npm nvm aws docker docker-compose gulp httpie
 export PATH="/usr/local/bin:/usr/bin:/bin:/usr/local/sbin:/usr/sbin:/sbin"
 
 # node
-export NVM_DIR=$(greadlink -f "/usr/local/opt/nvm")
-[[ -s $NVM_DIR/nvm.sh ]] && . $NVM_DIR/nvm.sh
+export NVM_DIR="$HOME/.nvm"
+[ -s "$NVM_DIR/nvm.sh" ] && . "$NVM_DIR/nvm.sh"
 
 # php
 export PATH=$PATH:$HOME/.composer/vendor/bin
