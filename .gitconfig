@@ -1,5 +1,6 @@
 [user]
 	name = Shota Hoshino
+  email = sht.hshn@gmail.com
 [core]
 	editor = /usr/local/bin/vim
 	excludesfile = ~/.gitignore
