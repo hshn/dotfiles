@@ -16,7 +16,7 @@ brew 'tmux'
 brew 'tree'
 brew 'wget'
 brew 'zsh'
-brew 'item2'
+cask 'iterm2'
 
 # git
 brew 'git', args: ['with-brewed-curl', 'with-brewed-openssl']
@@ -37,6 +37,9 @@ brew 'homebrew/php/boris'
 # node
 brew 'nvm'
 
+# ruby
+brew 'rbenv'
+
 # server
 brew 'nginx', args: ['with-spdy']
 brew 'mysql'
@@ -52,7 +55,6 @@ brew 'doctl' # digital ocean
 brew 'awscli'
 
 # caks
-brew 'caskroom/cask/brew-cask'
 cask_args appdir: '/Applications'
 
 # IDEs
@@ -79,9 +81,15 @@ cask 'skype'
 cask 'slack'
 
 # dev
-cask 'cocoapods'
+brew 'cocoapods'
+
+# font
+tap 'caskroom/fonts'
+cask 'font-hack'
 
 # etc
 cask 'minecraft'
 cask 'virtualbox'
 cask 'vlc'
+cask '1password'
+cask 'karabiner'
