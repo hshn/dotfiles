@@ -6,6 +6,7 @@ Plug 'vim-airline/vim-airline'
 Plug 'vim-airline/vim-airline-themes'
 Plug 'airblade/vim-gitgutter'
 Plug 'tmux-plugins/vim-tmux'
+Plug 'altercation/vim-colors-solarized'
 
 call plug#end()
 
