@@ -30,6 +30,10 @@ brew 'gradle'
 brew 'scala', args: ['with-docs', 'with-src']
 brew 'typesafe-activator'
 
+# swift
+tap 'kylef/formulae'
+brew 'kylef/formulae/swiftenv'
+
 # php
 brew 'homebrew/php/composer'
 brew 'homebrew/php/boris'

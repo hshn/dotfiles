@@ -54,6 +54,9 @@ plugins=(git symfony2 pod sbt npm nvm aws docker docker-compose gulp httpie rben
 # User configuration
 export PATH="/usr/local/bin:/usr/bin:/bin:/usr/local/sbin:/usr/sbin:/sbin"
 
+# swift
+if which swiftenv > /dev/null; then eval "$(swiftenv init -)"; fi
+
 # node
 export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && . "$NVM_DIR/nvm.sh"
