@@ -49,6 +49,7 @@ brew 'docker'
 brew 'docker-machine'
 brew 'docker-machine-nfs'
 brew 'docker-compose'
+cask 'docker'
 
 # cloud
 brew 'doctl' # digital ocean
