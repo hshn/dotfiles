@@ -44,6 +44,9 @@ brew 'nvm'
 # ruby
 brew 'rbenv'
 
+# ios
+cask fastlane
+
 # server
 brew 'nginx', args: ['with-spdy']
 brew 'mysql'
