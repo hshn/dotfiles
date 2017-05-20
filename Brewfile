@@ -45,7 +45,7 @@ brew 'nvm'
 brew 'rbenv'
 
 # ios
-cask fastlane
+cask 'fastlane'
 
 # server
 brew 'nginx', args: ['with-spdy']
