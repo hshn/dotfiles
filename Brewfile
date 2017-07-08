@@ -66,8 +66,7 @@ brew 'awscli'
 cask_args appdir: '/Applications'
 
 # IDEs
-cask 'intellij-idea'
-cask 'phpstorm'
+cask 'jetbrains-toolbox'
 
 # editors
 cask 'atom'
