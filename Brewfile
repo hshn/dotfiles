@@ -30,6 +30,9 @@ brew 'gradle'
 brew 'scala', args: ['with-docs', 'with-src']
 brew 'typesafe-activator'
 
+# haskell
+cask 'haskell-platform'
+
 # swift
 tap 'kylef/formulae'
 brew 'kylef/formulae/swiftenv'
