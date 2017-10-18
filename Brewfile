@@ -61,6 +61,7 @@ cask 'docker'
 # cloud
 brew 'doctl' # digital ocean
 brew 'awscli'
+brew 'ansible'
 
 # caks
 cask_args appdir: '/Applications'
