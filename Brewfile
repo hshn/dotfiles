@@ -71,6 +71,7 @@ cask 'haroopad'
 
 # browsers
 cask 'firefox'
+cask 'google-chrome'
 
 # finder
 cask 'qlcolorcode'
