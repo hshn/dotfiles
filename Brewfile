@@ -64,6 +64,7 @@ cask 'docker'
 # cloud
 brew 'doctl' # digital ocean
 brew 'awscli'
+brew 'aws-elasticbeanstalk'
 brew 'ansible'
 
 # caks
