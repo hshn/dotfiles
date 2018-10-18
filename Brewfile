@@ -1,7 +1,5 @@
 tap 'caskroom/cask'
 tap 'homebrew/bundle'
-tap 'homebrew/dupes'
-tap 'homebrew/php'
 
 # env
 brew 'coreutils'
@@ -19,7 +17,7 @@ brew 'zsh'
 cask 'iterm2'
 
 # git
-brew 'git', args: ['with-brewed-curl', 'with-brewed-openssl']
+brew 'git'
 brew 'tig'
 
 # java
@@ -28,7 +26,6 @@ brew 'gradle'
 
 # scala
 brew 'scala', args: ['with-docs', 'with-src']
-brew 'typesafe-activator'
 
 # haskell
 cask 'haskell-platform'
@@ -36,10 +33,6 @@ cask 'haskell-platform'
 # swift
 tap 'kylef/formulae'
 brew 'kylef/formulae/swiftenv'
-
-# php
-brew 'homebrew/php/composer'
-brew 'homebrew/php/boris'
 
 # node
 brew 'nvm'
@@ -51,7 +44,6 @@ brew 'rbenv'
 cask 'fastlane'
 
 # server
-brew 'nginx', args: ['with-spdy']
 brew 'mysql'
 
 # docker
