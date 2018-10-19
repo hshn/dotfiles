@@ -90,6 +90,7 @@ brew 'cocoapods'
 # font
 tap 'caskroom/fonts'
 cask 'font-hack'
+cask 'font-fira-code'
 
 # etc
 cask 'minecraft'
