@@ -54,6 +54,9 @@ plugins=(git pod sbt npm nvm aws docker docker-compose gulp httpie rbenv web-sea
 # User configuration
 export PATH="/usr/local/bin:/usr/bin:/bin:/usr/local/sbin:/usr/sbin:/sbin"
 
+export PATH="$HOME/.anyenv/bin:$PATH"
+eval "$(anyenv init -)"
+
 # ios
 export PATH="$HOME/.fastlane/bin:$PATH"
 
@@ -68,8 +71,6 @@ export NVM_DIR="$HOME/.nvm"
 export GOPATH=$HOME/.golang
 export PATH=$PATH:$GOPATH/bin
 
-# ruby
-eval "$(rbenv init -)"
 # node
 . $(brew --prefix nvm)/nvm.sh
 

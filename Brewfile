@@ -1,5 +1,6 @@
 tap 'caskroom/cask'
 tap 'homebrew/bundle'
+tap 'homebrew/cask-versions'
 
 # env
 brew 'coreutils'
@@ -22,6 +23,7 @@ brew 'tig'
 
 # java
 cask 'java'
+cask 'java8'
 brew 'gradle'
 
 # scala
@@ -36,9 +38,6 @@ brew 'kylef/formulae/swiftenv'
 
 # node
 brew 'nvm'
-
-# ruby
-brew 'rbenv'
 
 # ios
 cask 'fastlane'
