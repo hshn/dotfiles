@@ -28,6 +28,7 @@ brew 'gradle'
 
 # scala
 brew 'scala', args: ['with-docs', 'with-src']
+brew 'sbt'
 
 # haskell
 cask 'haskell-platform'
