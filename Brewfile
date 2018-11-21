@@ -51,7 +51,9 @@ brew 'docker'
 brew 'docker-machine'
 brew 'docker-machine-nfs'
 brew 'docker-compose'
+brew 'kubernetes-cli'
 cask 'docker'
+cask 'minikube'
 
 # cloud
 brew 'doctl' # digital ocean
