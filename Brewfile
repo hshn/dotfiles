@@ -59,6 +59,7 @@ cask 'minikube'
 brew 'doctl' # digital ocean
 brew 'awscli'
 brew 'aws-elasticbeanstalk'
+brew 'terraform'
 
 # caks
 cask_args appdir: '/Applications'
