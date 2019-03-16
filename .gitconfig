@@ -1,6 +1,6 @@
 [user]
 	name = Shota Hoshino
-  email = sht.hshn@gmail.com
+	email = sht.hshn@gmail.com
 [core]
 	editor = /usr/local/bin/vim
 	excludesfile = ~/.gitignore
@@ -9,5 +9,3 @@
 	default = simple
 [alias]
 	sync = fetch -pav
-[credential]
-	helper = osxkeychain
