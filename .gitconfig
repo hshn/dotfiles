@@ -9,3 +9,5 @@
 	default = simple
 [alias]
 	sync = fetch -pav
+[pager]
+	branch = false
