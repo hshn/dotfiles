@@ -21,11 +21,6 @@ cask 'iterm2'
 brew 'git'
 brew 'tig'
 
-# java
-cask 'java'
-cask 'java8'
-brew 'gradle'
-
 # scala
 brew 'scala', args: ['with-docs', 'with-src']
 brew 'sbt'
