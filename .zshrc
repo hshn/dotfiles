@@ -54,9 +54,6 @@ plugins=(git sbt npm nvm aws asdf docker docker-compose httpie web-search)
 # User configuration
 export PATH="/usr/local/bin:/usr/bin:/bin:/usr/local/sbin:/usr/sbin:/sbin"
 
-export PATH="$HOME/.anyenv/bin:$PATH"
-eval "$(anyenv init -)"
-
 # ios
 export PATH="$HOME/.fastlane/bin:$PATH"
 
@@ -85,9 +82,6 @@ export LANG=ja_JP.UTF-8
 # else
 #   export EDITOR='mvim'
 # fi
-
-# Compilation flags
-export ARCHFLAGS="-arch x86_64"
 
 # ssh
 # export SSH_KEY_PATH="~/.ssh/dsa_id"
