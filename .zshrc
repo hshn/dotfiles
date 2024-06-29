@@ -49,7 +49,7 @@ DISABLE_AUTO_TITLE="true"
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(git sbt npm nvm aws asdf docker docker-compose httpie web-search)
+plugins=(git sbt npm aws asdf docker docker-compose httpie web-search)
 
 # User configuration
 export PATH="/usr/local/bin:/usr/bin:/bin:/usr/local/sbin:/usr/sbin:/sbin"
@@ -59,11 +59,6 @@ export PATH="$HOME/.fastlane/bin:$PATH"
 
 # swift
 if which swiftenv > /dev/null; then eval "$(swiftenv init -)"; fi
-
-# node
-export NVM_DIR="$HOME/.nvm"
-[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
-[ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
 
 # golang
 export GOPATH=$HOME/.golang
