@@ -70,9 +70,9 @@ DISABLE_AUTO_TITLE="true"
 # Custom plugins may be added to $ZSH_CUSTOM/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(git brew)
 
 source $ZSH/oh-my-zsh.sh
+plugins=(git brew docker httpie web-search)
 
 # User configuration
 
@@ -102,5 +102,10 @@ export LANG=ja_JP.UTF-8
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
+alias cat='bat'
 
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
+
+# DEVBOX
+eval "$(devbox global shellenv)"
+
