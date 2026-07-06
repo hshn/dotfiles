@@ -15,3 +15,6 @@ composer.phar
 
 # AWS
 .aws/credentials
+
+# Aider
+/.aider.*
