@@ -115,5 +115,11 @@ alias cat='bat'
 # DEVBOX
 eval "$(devbox global shellenv)"
 
+# devbox は $PNPM_HOME を PATH に足すが pnpm はバイナリを $PNPM_HOME/bin に置くため補正する
+case ":$PATH:" in
+  *":$PNPM_HOME/bin:"*) ;;
+  *) export PATH="$PNPM_HOME/bin:$PATH" ;;
+esac
+
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
