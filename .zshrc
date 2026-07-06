@@ -113,7 +113,7 @@ alias cat='bat'
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
 
 # DEVBOX
-eval "$(devbox global shellenv)"
+eval "$(devbox global shellenv --quiet)"
 
 # devbox は $PNPM_HOME を PATH に足すが pnpm はバイナリを $PNPM_HOME/bin に置くため補正する
 case ":$PATH:" in
