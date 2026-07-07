@@ -115,7 +115,9 @@ alias cat='bat'
 # DEVBOX
 eval "$(devbox global shellenv --quiet)"
 
-# DEVBOX(PNPM): devbox は $PNPM_HOME を PATH に足すが pnpm はバイナリを $PNPM_HOME/bin に置くため補正する
+# PNPM: グローバル bin ($PNPM_HOME/bin) を PATH に通す。
+# devbox は継承環境(Ghostty 等)では PNPM_HOME を設定しないことがあるため、ここで明示する。
+export PNPM_HOME="${PNPM_HOME:-$HOME/Library/pnpm}"
 case ":$PATH:" in
   *":$PNPM_HOME/bin:"*) ;;
   *) export PATH="$PNPM_HOME/bin:$PATH" ;;
