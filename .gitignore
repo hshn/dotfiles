@@ -20,6 +20,6 @@ composer.phar
 /.aider.*
 
 # Claude
-.claude/settings.local.json
-.claude/worktrees/
-docs/superpowers/
+/.claude/settings.local.json
+/.claude/worktrees/
+/docs/superpowers/
