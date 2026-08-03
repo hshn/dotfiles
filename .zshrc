@@ -109,6 +109,13 @@ export LANG=ja_JP.UTF-8
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 alias cat='bat'
+# gbgD の worktree 版: gone な枝を worktree ごと消す
+gbgD!() {
+  LANG=C git branch --no-color -vv \
+    | grep ": gone\]" \
+    | sed -n 's/^..\([^ ]*\) .* (\(\/[^)]*\)) \[.*/\2 \1/p' \
+    | while read -r wt br; do git worktree remove --force "$wt" && git branch -D "$br"; done
+}
 
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
 
